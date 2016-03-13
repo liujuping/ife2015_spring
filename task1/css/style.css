@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.blue{color:blue;}
+.f14{font-size: 14px;}
+.f12{font-size: 12px;}
+.yellow{color: yellow;}
+.bg_black{background-color: black;}
+.border{border: 2px solid red;}
+.w100 {width: 100px;}
+.center{
+    width: 960px;
+    background-color: red;
+    height: 50px;
+}
+.center1 {
+    margin: 0 auto;
+}
+.center2 {
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+}
+.border-radius {
+    height: 50px;
+    display: block;
+    border:  1px solid #000;
+    border-width: 0 1px;
+}
+.clear {
+    clear: both;
+}
+.xtop,
+.xbottom {
+    display: block;
+    background: transparent;
+    font-size: 1px;
+}
+.xb1, .xb2, .xb3, .xb4 {
+    display: block;overflow: hidden;
+}
+.xb1,.xb2,.xb3 {height: 1px;}
+.xb2,.xb3,.xb4 {border-left: 1px solid #000;border-right: 1px solid #000;}
+.xb1 {margin: 0 5px;background: #000;}
+.xb2 {margin: 0 3px;border-width: 0 2px;}
+.xb3 {margin: 0 2px;}
+.xb4 {height: 2px;margin: 0 1px;}
+
+.divA {
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+}
+.divB {
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+.divC {
+    background-color: yellow;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+.divC_3 {
+    background-color: yellow;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+.A_1 {
+    float: left;
+}
+.A_2 {
+    position: absolute;
+}
+.B_2 {
+    margin-left: 100px;
+}
+.A_3 {
+    float: left;
+}
+.C_3 {
+    float: right;
+}
+.A_4 {
+    position: absolute;left: 0;
+}
+.B_4 {
+    margin: 0 100px 0 50px;
+}
+.C_4 {
+    position: absolute;right: 0;
+}
+.red {
+    background-color: red;
+    width: 100%;
+}
+.clear:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+}
+.box {
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
